@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arch on osimg.ru</title>
+    <link>https://osimg.ru/</link>
+    <description>Recent content in Arch on osimg.ru</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    
+	<atom:link href="https://osimg.ru/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Centos</title>
+      <link>https://osimg.ru/centos/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://osimg.ru/centos/</guid>
+      <description>CentOS (англ. Community ENTerprise Operating System) — дистрибутив Linux, основанный на коммерческом Red Hat Enterprise Linux компании Red Hat и совместимый с ним. Согласно жизненному циклу Red Hat Enterprise Linux (RHEL), CentOS 5, 6 и 7 будут поддерживаться «до 10 лет», поскольку они основаны на RHEL. Ранее, версия CentOS 4 поддерживалась семь лет. wikipedia.org GitHub Исходная инструкция  Имя&amp;nbsp;пользователя:&amp;nbsp; root   Пароль:&amp;nbsp; osimg.ru   Размер диска:&amp;nbsp; 8Гб   SWAP:&amp;nbsp; отключен   Скачать:</description>
+    </item>
+    
+    <item>
+      <title>Debian</title>
+      <link>https://osimg.ru/debian/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://osimg.ru/debian/</guid>
+      <description>Debian — операционная система, состоящая из свободного ПО с открытым исходным кодом. В настоящее время Debian GNU/Linux — один из самых популярных и важных дистрибутивов GNU/Linux, в первичной форме оказавший значительное влияние на развитие этого типа ОС в целом. Также существуют проекты на основе других ядер: Debian GNU/Hurd, Debian GNU/kFreeBSD и Debian GNU/kNetBSD. Debian может использоваться в качестве операционной системы как для серверов, так и для рабочих станций. wikipedia.org GitHub Исходная инструкция  Имя&amp;nbsp;пользователя:&amp;nbsp; root   Пароль:&amp;nbsp; osimg.</description>
+    </item>
+    
+    <item>
+      <title>Ubuntu</title>
+      <link>https://osimg.ru/ubuntu/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://osimg.ru/ubuntu/</guid>
+      <description>Ubuntu — операционная система, основанная на Debian GNU/Linux. Основным разработчиком и спонсором является компания Canonical. В настоящее время проект активно развивается и поддерживается свободным сообществом. wikipedia.org GitHub Исходная инструкция  Имя&amp;nbsp;пользователя:&amp;nbsp; root   Пароль:&amp;nbsp; osimg.ru   Размер диска:&amp;nbsp; 8Гб   SWAP:&amp;nbsp; отключен   Скачать:
+   RAW QEMU Qcow2 VirtualBox VDI Hyper-V VHDX VMware VMDK     Зеркало Зеркало Зеркало Зеркало Зеркало    Предыдущие сборки</description>
+    </item>
+    
+  </channel>
+</rss>
