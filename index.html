@@ -59,6 +59,8 @@
 
     <link href="http://gmpg.org/xfn/11" rel="profile">
 
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.330.0.min.js"></script>
+
     <meta name="generator" content="Hugo 0.49" />
 </head>
 
@@ -127,7 +129,7 @@
         </tr>
     </table>
 <p>
-    Автоматические сборки<br/>
+    Автоматичесая сборка <b><label id="date"></label></b><br />
     <strong>Скачать:</strong>
 </p>
 
@@ -154,7 +156,25 @@
 </table>
 
 <p><a href="https://download.osimg.ru/index.html">Предыдущие сборки</a></p>
-</p>
+
+<script type="text/javascript">
+    
+    let ep = new AWS.Endpoint('osimg.ru');
+    let s3 = new AWS.S3({ endpoint: ep });
+
+    s3.makeUnauthenticatedRequest(
+        'listObjectsV2',
+        
+        { Bucket: 'download', Prefix: 'arch.qcow2.xz' },
+        function (err, data) {
+            if (err)
+                console.log(err, err.stack);
+            else
+                document.getElementById("date").innerHTML = data.Contents[0].LastModified.toISOString().replace("T", " ");
+        }
+    );
+
+</script></p>
 
         </div>
 
